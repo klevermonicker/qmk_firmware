@@ -808,6 +808,7 @@ enum quantum_keycodes {
 #define LSA_T(kc) MT(MOD_LSFT | MOD_LALT, kc)  // Left Shift + Alt
 #define RSA_T(kc) MT(MOD_RSFT | MOD_RALT, kc)  // Right Shift + Alt
 #define RCS_T(kc) MT(MOD_RCTL | MOD_RSFT, kc)  // Right Control + Shift
+#define LCS_T(kc) MT(MOD_LCTL | MOD_LSFT, kc)  // Left Control + Shift
 #define SAGR_T(kc) RSA_T(kc)
 
 #define ALL_T(kc) HYPR_T(kc)
