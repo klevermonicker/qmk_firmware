@@ -221,7 +221,7 @@ enum quantum_keycodes {
     MI_Db_2 = MI_Cs_2,
     MI_D_2,
     MI_Ds_2,
-    MI_Eb_2 = MI_Ds_2,
+    MI_Eb_2 = MI_Ds_2, 
     MI_E_2,
     MI_F_2,
     MI_Fs_2,
